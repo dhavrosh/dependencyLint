@@ -1,0 +1,3 @@
+dist/
+babel_cache/
+node_modules/

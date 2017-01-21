@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8"/>
+    <title>TryDI</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css"/>
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.0.0/codemirror.min.css"/>
+    <link rel="stylesheet" href="/dist/styles/paraiso-light.css" />
+    <link rel="stylesheet" href="/dist/styles/lint.css" />
+    <script src="//ajax.aspnetcdn.com/ajax/jshint/r07/jshint.js"></script>
+
+    <link rel="stylesheet" href="/dist/styles/font-awesome.min.css" />
+    <link rel="stylesheet" href="/dist/styles/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/dist/styles/freelancer.min.css"/>
+    <link rel="stylesheet" href="/dist/styles/style.css"/>
+
+    <style>
+        hr.star-light2:after {
+            background-color: #2c3e50 !important;
+            color: #fff;
+        }
+        pre {
+            border-radius: 0;
+            text-align: left;
+            white-space: pre-line;
+            color: #3765af;
+        }
+
+        .module-title {
+            width: 30px;
+            color: rgb(80, 206, 181);
+        }
+
+        .modal-content {
+            border-radius: 0px !important;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div id="main">
+        <div>
+            <%- markup %>
+        </div>
+    </div>
+
+    <script src="/dist/bundle.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <%- scriptTag %>
+
+</body>
+</html>

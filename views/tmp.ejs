@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8"/>
+    <title>TryDI</title>
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.0.0/codemirror.min.css"/>
+    <link rel="stylesheet" href="/dist/styles/bootstrap.darky.min.css" />
+    <link rel="stylesheet" href="/dist/styles/style.css" />
+    <link rel="stylesheet" href="/dist/styles/paraiso-light.css" />
+    <link rel="stylesheet" href="/dist/styles/lint.css" />
+
+    <script src="//ajax.aspnetcdn.com/ajax/jshint/r07/jshint.js"></script>
+
+</head>
+<body>
+
+<div id="main">
+    <div>
+        <%- markup %>
+    </div>
+</div>
+
+<script src="/dist/bundle.js"></script>
+<%- scriptTag %>
+
+</body>
+</html>
